@@ -1,0 +1,24 @@
+body {
+    font-family: 'Scope One', serif;
+    color: #212023;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* bootstrap override */
+ul.navbar-nav li.nav-item a.nav-link:hover {
+    color: #007EA7;
+    font-weight: bold;
+}
+
+ul.navbar-nav li.nav-item a.nav-link.active {
+    color: #007EA7;
+    font-weight: bold;
+}
+
+/* my css */
+.custom-cursive {
+    font-family: 'Lobster', cursive;
+}
