@@ -1,24 +1,62 @@
-body {
-    font-family: 'Scope One', serif;
-    color: #212023;
+a {
+  color: #0d47a1
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Montserrat', sans-serif;
+a:hover {
+  color: #002171;
 }
 
-/* bootstrap override */
-ul.navbar-nav li.nav-item a.nav-link:hover {
-    color: #007EA7;
-    font-weight: bold;
+.btn {
+  border: none;
 }
 
-ul.navbar-nav li.nav-item a.nav-link.active {
-    color: #007EA7;
-    font-weight: bold;
+.btn-primary {
+  background-color: #0d47a1;
 }
 
-/* my css */
-.custom-cursive {
-    font-family: 'Lobster', cursive;
+.btn-primary:hover {
+  background-color: #002171;
+}
+
+.btn-secondary {
+  background-color: #757575;
+}
+
+.btn-secondary:hover {
+  background-color: #494949;
+}
+
+.jumbotron {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  margin-bottom: 0;
+  background-color: #fff;
+}
+
+@media (min-width: 768px) {
+  .jumbotron {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+}
+
+.jumbotron p:last-child {
+  margin-bottom: 0;
+}
+
+.jumbotron-heading {
+  font-weight: 300;
+}
+
+.jumbotron .container {
+  max-width: 40rem;
+}
+
+footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+footer p {
+  margin-bottom: 0.25rem;
 }
