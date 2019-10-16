@@ -114,9 +114,44 @@
             <br />Please, take a look.
           </p>
           <p>
-            <a href="mailto:hellman.s@husky.neu.edu" class="btn btn-primary my-2">Contact</a>
-            <a href="sean_hellman_resume.pdf" class="btn btn-secondary my-2">Resume</a>
+            <a
+              href="mailto:hellman.s@husky.neu.edu"
+              class="btn btn-primary my-2"
+              >Contact</a
+            >
+            <a href="sean_hellman_resume.pdf" class="btn btn-secondary my-2"
+              >Resume</a
+            >
           </p>
+          <p class="text-muted">
+            My code for all projects is viewable on Github by request. Simply
+            provide your Github username and I will add you as a collaborator.
+          </p>
+          <form action="https://formspree.io/mnerdrqx" method="POST">
+            <div class="form-row">
+              <div class="col">
+                <p class="text-muted form-control-plaintext">GitHub username</p>
+              </div>
+              <div class="col">
+                <input
+                  type="text"
+                  name="username"
+                  class="form-control"
+                  placeholder="username"
+                />
+              </div>
+              <div class="col">
+                <button type="submit" class="btn btn-primary mb-2" value="Send">
+                  Request access
+                </button>
+              </div>
+            </div>
+            <!-- <form action="https://formspree.io/mnerdrqx" method="POST">
+              <input type="text" name="name">
+              <input type="email" name="_replyto">
+              <input type="submit" value="Send">
+            </form> -->
+          </form>
         </div>
       </section>
 
@@ -127,29 +162,17 @@
             <!-- project 1 -->
             <div class="col-md-4">
               <div class="card mb-4 shadow-sm">
-                <svg
-                  class="bd-placeholder-img card-img-top"
-                  width="100%"
-                  height="225"
-                  xmlns="http://www.w3.org/2000/svg"
-                  preserveAspectRatio="xMidYMid slice"
-                  focusable="false"
-                  role="img"
-                  aria-label="Placeholder: Thumbnail"
-                >
-                  <title>Placeholder</title>
-                  <rect width="100%" height="100%" fill="#55595c" />
-                  <text x="50%" y="50%" fill="#eceeef" dy=".3em">
-                    Thumbnail
-                  </text>
-                </svg>
+                <img
+                  src="/images/healthapp.png"
+                  class="img-fluid"
+                  alt="Social Health App"
+                />
                 <div class="card-body">
                   <p class="card-text">
-                    This is a wider card with supporting text below as a natural
-                    lead-in to additional content. This content is a little bit
-                    longer.
+                    A full-stack, web-based, and holistic health tracking app
+                    built using React and Google Firestore.
                   </p>
-                  <div
+                  <!-- <div
                     class="d-flex justify-content-between align-items-center"
                   >
                     <div class="btn-group">
@@ -159,15 +182,8 @@
                       >
                         View
                       </button>
-                      <button
-                        type="button"
-                        class="btn btn-sm btn-outline-secondary"
-                      >
-                        Edit
-                      </button>
                     </div>
-                    <small class="text-muted">9 mins</small>
-                  </div>
+                  </div> -->
                 </div>
               </div>
             </div>
@@ -175,47 +191,17 @@
             <!-- project 2 -->
             <div class="col-md-4">
               <div class="card mb-4 shadow-sm">
-                <svg
-                  class="bd-placeholder-img card-img-top"
-                  width="100%"
-                  height="225"
-                  xmlns="http://www.w3.org/2000/svg"
-                  preserveAspectRatio="xMidYMid slice"
-                  focusable="false"
-                  role="img"
-                  aria-label="Placeholder: Thumbnail"
-                >
-                  <title>Placeholder</title>
-                  <rect width="100%" height="100%" fill="#55595c" />
-                  <text x="50%" y="50%" fill="#eceeef" dy=".3em">
-                    Thumbnail
-                  </text>
-                </svg>
+                <img
+                  src="/images/trivia.png"
+                  class="img-fluid"
+                  alt="Trivia App"
+                />
                 <div class="card-body">
                   <p class="card-text">
-                    This is a wider card with supporting text below as a natural
-                    lead-in to additional content. This content is a little bit
-                    longer.
+                    Built with a focus on extensive user customization — such as
+                    the ability to adjust category, difficulty level, play mode,
+                    and more — using React.
                   </p>
-                  <div
-                    class="d-flex justify-content-between align-items-center"
-                  >
-                    <div class="btn-group">
-                      <button
-                        type="button"
-                        class="btn btn-sm btn-outline-secondary"
-                      >
-                        View
-                      </button>
-                      <button
-                        type="button"
-                        class="btn btn-sm btn-outline-secondary"
-                      >
-                        Edit
-                      </button>
-                    </div>
-                    <small class="text-muted">9 mins</small>
-                  </div>
                 </div>
               </div>
             </div>
@@ -223,95 +209,17 @@
             <!-- project 3 -->
             <div class="col-md-4">
               <div class="card mb-4 shadow-sm">
-                <svg
-                  class="bd-placeholder-img card-img-top"
-                  width="100%"
-                  height="225"
-                  xmlns="http://www.w3.org/2000/svg"
-                  preserveAspectRatio="xMidYMid slice"
-                  focusable="false"
-                  role="img"
-                  aria-label="Placeholder: Thumbnail"
-                >
-                  <title>Placeholder</title>
-                  <rect width="100%" height="100%" fill="#55595c" />
-                  <text x="50%" y="50%" fill="#eceeef" dy=".3em">
-                    Thumbnail
-                  </text>
-                </svg>
+                <img
+                  src="/images/othello.png"
+                  class="img-fluid"
+                  alt="Othello"
+                />
                 <div class="card-body">
                   <p class="card-text">
-                    This is a wider card with supporting text below as a natural
-                    lead-in to additional content. This content is a little bit
-                    longer.
+                    An implementation of Othello using Python and Turtle
+                    graphics. The user plays against the computer, which uses
+                    logic to determine optimal moves.
                   </p>
-                  <div
-                    class="d-flex justify-content-between align-items-center"
-                  >
-                    <div class="btn-group">
-                      <button
-                        type="button"
-                        class="btn btn-sm btn-outline-secondary"
-                      >
-                        View
-                      </button>
-                      <button
-                        type="button"
-                        class="btn btn-sm btn-outline-secondary"
-                      >
-                        Edit
-                      </button>
-                    </div>
-                    <small class="text-muted">9 mins</small>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!-- project 4 -->
-            <div class="col-md-4">
-              <div class="card mb-4 shadow-sm">
-                <svg
-                  class="bd-placeholder-img card-img-top"
-                  width="100%"
-                  height="225"
-                  xmlns="http://www.w3.org/2000/svg"
-                  preserveAspectRatio="xMidYMid slice"
-                  focusable="false"
-                  role="img"
-                  aria-label="Placeholder: Thumbnail"
-                >
-                  <title>Placeholder</title>
-                  <rect width="100%" height="100%" fill="#55595c" />
-                  <text x="50%" y="50%" fill="#eceeef" dy=".3em">
-                    Thumbnail
-                  </text>
-                </svg>
-                <div class="card-body">
-                  <p class="card-text">
-                    This is a wider card with supporting text below as a natural
-                    lead-in to additional content. This content is a little bit
-                    longer.
-                  </p>
-                  <div
-                    class="d-flex justify-content-between align-items-center"
-                  >
-                    <div class="btn-group">
-                      <button
-                        type="button"
-                        class="btn btn-sm btn-outline-secondary"
-                      >
-                        View
-                      </button>
-                      <button
-                        type="button"
-                        class="btn btn-sm btn-outline-secondary"
-                      >
-                        Edit
-                      </button>
-                    </div>
-                    <small class="text-muted">9 mins</small>
-                  </div>
                 </div>
               </div>
             </div>
